@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'LXGWWenKaiMonoScreen';
+    src: url('/assets/font/LXGWWenKaiMonoScreen.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+    font-family: 'LXGWWenKaiMonoScreen', sans-serif;
+  }
+
+p {
+    font-size: 18px; /* 正文字体大小 */
+}
+
+span {
+    font-size: 1.1em; /* 侧边栏条目相对原始字体放大10% */
+}
+
+/* 目录标题、左侧边栏标题 */
+.md-nav__title{
+  font-size: 1.2em; /* 侧边栏相对原始字体放大20% */
+}
+.md-nav__item--active{
+  font-size: 1.15em; 
+}
+
+/* 地边栏 */
+.md-footer-meta {
+    background-color: #546d78 !important;  /* 深灰色背景 */
+}
