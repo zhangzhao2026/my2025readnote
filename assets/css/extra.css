@@ -1,4 +1,5 @@
-@font-face {
+/* 这个是调用本地字体的方法，好像网站无法渲染 */
+/* @font-face {
     font-family: 'LXGWWenKaiMonoScreen';
     src: url('/assets/font/LXGWWenKaiMonoScreen.ttf') format('truetype');
     font-weight: normal;
@@ -7,7 +8,21 @@
 
 body {
     font-family: 'LXGWWenKaiMonoScreen', sans-serif;
-  }
+} */
+
+/* 通过调用在线字体修改网页字体的方法参考：https://wcowin.work/blog/websitebeauty/mkdocsfont/#mkdocs */
+/* 霞字体CDN合集：https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont/ */
+body {
+  /* font-family: "LXGW WenKai", sans-serif; */
+  /* Lite version */
+  /* font-family: "LXGW WenKai Lite", sans-serif; */
+  /* TC version */
+  /* font-family: "LXGW WenKai TC", sans-serif; */
+  /* Screen version */
+  font-family: "LXGW WenKai Screen", sans-serif;
+}
+
+/* 下面是我修改的细节 */
 
 p {
     font-size: 18px; /* 正文字体大小 */
